@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "aquabot happy for whatsapp.",
   "main": "/aquabot/bot.js",
+  "type": "commonjs",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanuwaofficial/AQUABOT-MD.git"
+  },
+  "engines" : { 
+    "node" : ">=14.19.3"
   },
   "author": "sanuwa official",
   "developer": "sanuwa",
@@ -18,7 +22,7 @@
   },
   "homepage": "https://github.com/sanuwaofficial/AQUABOT-MD",
   "dependencies": {
-     "@adiwajshing/baileys": "^4.3.0",
+     "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",  
     "axios": "^0.24.0",
     "heroku-client": "^3.1.0", 
